@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+body { width: 100%; background-color: black; font-family: 'Oswald', sans-serif; }
+
+#page { width: 100%; max-width: 1000px; height: auto; margin: 0px auto; position: relative;
+	background-color: #5f6889; box-shadow: 3px 3px 3px lightslategray; }
+
+h1 { font-size: 2vw; font-weight: 700; font-style: italic; color: whitesmoke;
+	text-align: right; }
+
+
+h3 { font-size: 3vw; font-weight: 400; color: #ffffff;} 
+
+h4 { font-size: 2vw; font-weight: 700; color: #000d33; text-align: center; }
+
+h5 { font-size: 1.25vw; font-weight: 400; color: #000d33; font-style: italic; text-align: justify;}
+
+h6 { font-size: 1.2em; margin: 0; color: #000d33; text-align: left; }
+
+/* Header */
+header { background: no-repeat right bottom; margin-top: auto; margin-bottom: auto; }  	
+
+/*Section */
+section { margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px;}
+
+p { font-size: 1.5vw; color: lightsteelblue; text-align: justify; }
+
+h2 { font-size: 4vw; color: #ffffff; padding-top: 20px; padding-bottom: 20px; text-align: center;}
+
+article { width: 65%; height: auto; }
+
+aside { width: 25%; height: auto; padding: 10px 20px; float: right; }
+	
+/* Navigation */
+
+nav { background-color: #5f6889; position: absolute; width: 100%; color: white; margin-top: 10px; margin-bottom: 10px; }
+
+nav::after { content: ''; display: block; clear: both; }
+
+nav ul { list-style: none; }
+
+nav ul li:hover { background-color: darkgray; }
+
+nav ul li:hover > ul { display: block; background-color: darkgray; border-bottom: 1px solid #000d33;
+	border-left: 1px solid #000d33; border-right: 5px solid #000d33; }
+
+nav ul li a { display: inline-block; color:#000d33; padding: 10px 30px; text-decoration: none;
+	font-size: 1.5vw; text-transform: uppercase; width: 125px; position: relative; }
+
+nav ul li a:visited { color:#000d33; }
+nav ul li a:hover { background-color: lightgray; color: #33000d; }
+
+/* Top-level Nav */
+
+nav > ul { padding-left: 20px; }
+nav > ul > li { float: left; padding: 0px 20px; }
+nav > ul > li > a { width: 100%; padding: 5px 20px; }
+
+
+/* Email Form */
+
+section { padding: 10px 20px; color:#000d33; }
+form { background-color: black; font-size: 2vw; color: white; padding-top: 10px; padding-bottom: 30px; }
+label { float: left; width: 15%; text-align: right; padding-right: 10px;
+	margin-top: 10px;}
+input, textarea { margin: 20px 20px; display: block; }
+#mySubmit { margin-left: 310px; }
+#mobile { display: none; }
+#desktop { display: inline; }
+
+/* Footer */
+footer { background-color: #ffffff; margin: 40px; font-size: 0.8em; color: #595959; }
+footer .content { display: inline; }
+footer a { margin-left: 30px; color: #595959; }
+footer a:visited { color: #595959; }
+footer a:hover { color: #000000; }
+
